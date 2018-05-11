@@ -1,0 +1,69 @@
+div {
+-webkit-transition: 0.4s;
+}
+
+body {
+    background: url("images/hearts.jpg");
+	background-color: pink;
+} 
+
+h1 {
+	color: pink;
+    text-align: center;
+	
+ } 
+ 
+ p { 
+     font-family: verdana;
+     text-align:  center;
+	 color; pink;
+ }
+  
+  h1 {
+	 color: black;
+     text-align: center;
+  }
+  
+  h2 {
+	  color: black;
+    text-align: center;
+	
+ } 
+ 
+ p {  
+     font-family: verdana;
+     color: pink;
+ } 
+ 
+
+}
+
+.grid {
+display: grid;
+height: 100%;
+width: 100%;
+margin: auto;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 2vh;
+}
+
+.grid-4col {
+	display: grid;
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	grid-template-columns: 1fr 1fr 1fr 1ft;
+	gri-gap: 2vh;
+}
+
+.grid-colspanl-a {
+	padding: 1em;
+	grid-column-start: 1;
+	grid-column-end: span 1;
+}
+
+.grid-colspanl-d {
+	padding: 1em;
+	grid-column-start: 100;
+	grid-column-end: span 1;
+}
