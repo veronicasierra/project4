@@ -32,38 +32,32 @@ h1 {
  
  p {  
      font-family: verdana;
-     color: pink;
+     color: black;
  } 
  
 
 }
 
+
 .grid {
-display: grid;
-height: 100%;
-width: 100%;
-margin: auto;
-grid-template-columns: 1fr 1fr 1fr;
-grid-gap: 2vh;
-}
-
-.grid-4col {
 	display: grid;
-	height: 100%;
-	width: 100%;
-	margin: auto;
-	grid-template-columns: 1fr 1fr 1fr 1ft;
-	gri-gap: 2vh;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 2vh;
+	border: 1px black solid;
 }
 
-.grid-colspanl-a {
+.headerbody {
+	background-color: F2BBE8;
 	padding: 1em;
 	grid-column-start: 1;
-	grid-column-end: span 1;
+	grid-column-end: span 2;
+	text-align: justify;
 }
 
-.grid-colspanl-d {
+.info {
+	background-color: #F2BBE8;
 	padding: 1em;
-	grid-column-start: 100;
-	grid-column-end: span 1;
+	grid-column-start: 1;
+	grid-column-end: span 2;
+	text-align: left justify;
 }
